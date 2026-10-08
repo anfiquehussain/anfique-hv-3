@@ -85,7 +85,7 @@ export function handleTerminalCommand(rawCmd, { onSelectTab, setCommandLogs, set
       `  Status      : ${cur.status || "CURRENT PRODUCTION"}`,
       `  Release Date: ${cur.releaseDate || "2026-03"}`,
       `  Archived    : v2.x (7 releases) • v1.x (6 releases) • Beta • v8-v12`,
-      `  Repository  : ${cur.githubUrl || "https://github.com/anfiquehussain/anfique-portfolio-2026"}`,
+      `  Repository  : ${cur.githubUrl || "https://github.com/anfiquehussain/anfique-hv-3"}`,
       ``,
       `💡 Run 'version --all' or 'version -a' to open the complete interactive changelog.`,
     ].join("\n");
